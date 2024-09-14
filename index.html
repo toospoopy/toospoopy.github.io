@@ -50,6 +50,19 @@
         .product div {
             max-width: 600px;
         }
+        .reviews {
+            background-color: #f9f9f9;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 4px;
+        }
+        .reviews h4 {
+            margin: 0;
+            font-size: 16px;
+        }
+        .reviews p {
+            margin: 5px 0;
+        }
         footer {
             text-align: center;
             padding: 10px;
@@ -64,8 +77,8 @@
     </header>
     <nav>
         <a href="#">Home</a>
-        <a href="#">Reviews</a>
-        <a href="#">Contact</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#contact">Contact</a>
     </nav>
     <div class="container">
         <h2>Featured Products</h2>
@@ -75,6 +88,12 @@
                 <h3>Canon EOS R10</h3>
                 <p>The Canon EOS R10 offers a great balance of photo and video features, with 4K video and a solid APS-C sensor. Ideal for both beginners and professionals.</p>
                 <a href="https://www.amazon.com/Canon-RF-S18-45mm-Mirrorless-High-Speed-Lightweight/dp/B0B2KV35NX" target="_blank">Buy on Amazon</a>
+                <div class="reviews">
+                    <h4>Reviews:</h4>
+                    <p><strong>John D.</strong> - "Fantastic camera for the price! The image quality is excellent, and it's perfect for both photography and videography."</p>
+                    <p><strong>Sarah P.</strong> - "I love the compact design and the fact that it shoots in 4K. It's very user-friendly, even for beginners."</p>
+                    <p><strong>Alex M.</strong> - "Great camera for content creators! The autofocus is spot-on, and the video quality is superb."</p>
+                </div>
             </div>
         </div>
         <div class="product">
@@ -83,6 +102,12 @@
                 <h3>Canon EOS M50 Mark II</h3>
                 <p>Popular among vloggers, the Canon EOS M50 Mark II offers 4K video and good image quality at a reasonable price.</p>
                 <a href="https://www.amazon.com/Canon-Mirrorless-RF-S18-45mm-Smartphone-Connection/dp/B0BTTV6CT1" target="_blank">Buy on Amazon</a>
+                <div class="reviews">
+                    <h4>Reviews:</h4>
+                    <p><strong>Emily R.</strong> - "This camera is perfect for vlogging! The flip screen and 4K video make it super easy to use."</p>
+                    <p><strong>Brian S.</strong> - "Great image quality for the price. It's lightweight and easy to carry around."</p>
+                    <p><strong>Kate L.</strong> - "As a beginner, I found this camera to be very intuitive. The connectivity with my smartphone is a nice bonus."</p>
+                </div>
             </div>
         </div>
         <div class="product">
@@ -91,6 +116,12 @@
                 <h3>SanDisk 32GB Ultra SDHC UHS-I Memory Card</h3>
                 <p>An affordable and reliable memory card, perfect for storing photos and videos from your Canon camera.</p>
                 <a href="https://www.amazon.com/SanDisk-Ultra-UHS-I-Memory-SDSDUN4-032G-GN6IN/dp/B08GYG6T12?th=1" target="_blank">Buy on Amazon</a>
+                <div class="reviews">
+                    <h4>Reviews:</h4>
+                    <p><strong>Michael T.</strong> - "This memory card is a steal for the price. It works flawlessly with my DSLR."</p>
+                    <p><strong>Lisa K.</strong> - "Great storage capacity and fast transfer speeds. Highly recommended."</p>
+                    <p><strong>David R.</strong> - "I've been using this card for a while, and it's very reliable. No issues at all."</p>
+                </div>
             </div>
         </div>
         <div class="product">
@@ -99,6 +130,12 @@
                 <h3>AmazonBasics Large DSLR Camera Gadget Bag</h3>
                 <p>This budget-friendly camera bag is designed to protect and carry your DSLR camera, lenses, and accessories.</p>
                 <a href="https://www.amazon.com/AmazonBasics-Large-DSLR-Camera-Gadget/dp/B00CF5OHZ2/ref=sr_1_1" target="_blank">Buy on Amazon</a>
+                <div class="reviews">
+                    <h4>Reviews:</h4>
+                    <p><strong>Chris A.</strong> - "Very spacious and durable. Fits all my camera gear perfectly."</p>
+                    <p><strong>Sophia W.</strong> - "Excellent value for the money. The padding is great for protection."</p>
+                    <p><strong>Mark H.</strong> - "I love how lightweight this bag is, yet it holds everything I need."</p>
+                </div>
             </div>
         </div>
         <div class="product">
@@ -107,11 +144,22 @@
                 <h3>AmazonBasics 50-Inch Lightweight Tripod</h3>
                 <p>A versatile and lightweight tripod that's perfect for both beginners and seasoned photographers.</p>
                 <a href="https://www.amazon.com/AmazonBasics-Lightweight-Camera-Mount-Tripod/dp/B00XI87KV8" target="_blank">Buy on Amazon</a>
+                <div class="reviews">
+                    <h4>Reviews:</h4>
+                    <p><strong>James G.</strong> - "Great tripod for the price. It's stable and easy to adjust."</p>
+                    <p><strong>Nina S.</strong> - "Perfect for my photography needs. Lightweight and portable."</p>
+                    <p><strong>Tom F.</strong> - "Excellent build quality. Works well with my DSLR and smartphone."</p>
+                </div>
             </div>
         </div>
     </div>
-    <footer>
-        <p>&copy; 2024 My Tech Reviews</p>
-    </footer>
-</body>
-</html>
+
+    <!-- Contact Section -->
+    <div class="container" id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or need further information, feel free to reach out to us. You can contact us through the form below or directly via email.</p>
+        <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Your Name"><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Your Email"><br><br>
